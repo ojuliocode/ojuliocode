@@ -14,11 +14,11 @@
 }
 
 .unselectable {
-  user-select: none;
-  -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
- }
+ user-select: none;
+ -webkit-user-select: none; /* Safari */
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* Internet Explorer/Edge */
+}
 
 a {
   font-weight: 500;
@@ -34,6 +34,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  min-width: 320px;
   min-height: 100vh;
 }
 
@@ -52,24 +53,26 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  color: white;
+  transition: all 0.2s;
 }
 button:hover {
   border-color: #646cff;
+  transform: scale(1.04);
+  transition: all 0.2s;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #95a6eb;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #386fd6;
   }
-}

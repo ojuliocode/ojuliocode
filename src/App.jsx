@@ -33,24 +33,24 @@ function App() {
       </div>
       <div className="card">
         <div className="card-text">
-          <h2 style={{ textAlign: "start" }}>Magic Front</h2>
-          <p style={{ maxWidth: 300, textAlign: "start" }}>
+          <h2 className="align-start">Magic Front</h2>
+          <p  className=" max-width align-start">
             O Magic Front é o guia moderno do Frontend. Este ebook é para você
             que quer aprender as tecnologias mais modernas do Front do zero
           </p>
           <p>
             <em>*Inclui seção sobre currículo + Linkedin! </em>
           </p>
-          <a href="https://hotmart.com" target="_blank">
+          <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B" target="_blank">
             <button>Quero aprender Frontend</button>
           </a>
         </div>
-        <a href="https://hotmart.com" target="_blank">
+        <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B" target="_blank">
           {" "}
           <img
             src={ad}
             alt="bogos"
-            width={200}
+            width={150}
             height={"auto"}
             style={{
               borderRadius: 20,

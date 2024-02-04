@@ -22,7 +22,7 @@
 }
 
 .logo {
-  height: 22em;
+  height: 20em;
   padding: 1.5em;
   transition: filter 300ms;
 }
@@ -34,7 +34,9 @@
     transform: rotate(360deg);
   }
 }
-
+.max-width {
+  max-width: 300px;
+}
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
@@ -58,3 +60,25 @@
   left: 0;
   height: 60px;
 }
+.align-start {
+ text-align: start;
+}
+
+@media (max-width: 600px) {
+  .card{
+    
+  flex-direction: column;
+  }
+
+  *{
+    text-align: center;
+  }
+  .align-start {
+   text-align: center;
+
+  }
+
+  .max-width {
+    max-width: none;
+  }
+ }
