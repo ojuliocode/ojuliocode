@@ -2,11 +2,12 @@
   max-width: 1280px;
   margin: 0 auto;
   text-align: center;
+  padding: 10px
 }
 
 .drop-shadow{
   border-radius: 50%;
-  box-shadow: -400px 0px 400px rgba(52, 136, 221, 0.5), 400px 0px 400px rgba(240, 178, 78, 0.5);
+  box-shadow: -300px 0px 400px rgba(52, 136, 221, 0.5), 300px 0px 400px rgba(240, 178, 78, 0.5);
 }
 .medium-text {
   font-size: 1.2em;
@@ -22,7 +23,7 @@
 }
 
 .logo {
-  height: 20em;
+  height: 17em;
   padding: 1.5em;
   transition: filter 300ms;
 }
@@ -81,4 +82,6 @@
   .max-width {
     max-width: none;
   }
+
  }
+ 
