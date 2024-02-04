@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.drop-shadow{
+  border-radius: 50%;
+  box-shadow: -400px 0px 400px rgba(52, 136, 221, 0.5), 400px 0px 400px rgba(240, 178, 78, 0.5);
+}
+.medium-text {
+  font-size: 1.2em;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.logo {
+  height: 22em;
+  padding: 1.5em;
+  transition: filter 300ms;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.footer{
+  background-color: rgb(85, 145, 213);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 60px;
+}
