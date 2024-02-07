@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import pfp from "./assets/pfp.png";
+import sheets from "./assets/sheets.png";
 import ad from "./assets/ad.png";
 import "./App.css";
 
@@ -59,6 +60,31 @@ function App() {
             }}
           />
         </a>
+      </div>
+      <div className="card">
+        <a href="https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing" target="_blank">
+          {" "}
+          <img
+            src={sheets}
+            alt="bogos"
+            width={150}
+            height={"auto"}
+            style={{
+              borderRadius: 20,
+              marginTop: "auto",
+              marginBottom: "auto",
+            }}
+          />
+        </a>
+        <div className="card-text">
+          <h2 className="align-start">Vagas</h2>
+          <p  className=" max-width align-start">
+            Acesse a vagas de estágio e de Júnior, em primeira mão
+          </p>
+          <a href="https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing" target="_blank">
+            <button>Vagas</button>
+          </a>
+        </div>
       </div>
       <div className="footer">
         <h4 style={{ color: "white" }}>@ojuliocode &copy; 2024</h4>
