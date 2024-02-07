@@ -69,6 +69,7 @@
   .card{
     
   flex-direction: column;
+  gap: 5px;
   }
 
   *{
@@ -83,5 +84,9 @@
     max-width: none;
   }
 
+  h2{
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+  }
  }
  

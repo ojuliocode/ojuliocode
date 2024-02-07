@@ -33,19 +33,6 @@ function App() {
         </a>
       </div>
       <div className="card">
-        <div className="card-text">
-          <h2 className="align-start">Magic Front</h2>
-          <p  className=" max-width align-start">
-            O Magic Front é o guia moderno do Frontend. Este ebook é para você
-            que quer aprender as tecnologias mais modernas do Front do zero
-          </p>
-          <p>
-            <em>*Inclui seção sobre currículo + Linkedin! </em>
-          </p>
-          <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B" target="_blank">
-            <button>Quero aprender Frontend</button>
-          </a>
-        </div>
         <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B" target="_blank">
           {" "}
           <img
@@ -60,6 +47,19 @@ function App() {
             }}
           />
         </a>
+        <div className="card-text">
+          <h2 className="align-start">Magic Front</h2>
+          <p  className=" max-width align-start">
+            O Magic Front é o guia moderno do Frontend. Este ebook é para você
+            que quer aprender as tecnologias mais modernas do Front do zero
+          </p>
+          <p>
+            <em>*Inclui seção sobre currículo + Linkedin! </em>
+          </p>
+          <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B" target="_blank">
+            <button>Quero aprender Frontend</button>
+          </a>
+        </div>
       </div>
       <div className="card">
         <a href="https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing" target="_blank">
