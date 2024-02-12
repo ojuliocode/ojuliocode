@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import pfp from "./assets/pfp.png";
 import sheets from "./assets/sheets.png";
 import ad from "./assets/ad.png";
+import yt from "./assets/yt.png";
 import "./App.css";
 
 function App() {
@@ -31,6 +32,35 @@ function App() {
         <a target="_blank" href="https://www.youtube.com/@ojuliocode">
           <h4>youtube</h4>
         </a>
+      </div>
+      <div className="card">
+        <a href="https://www.youtube.com/watch?v=SYFosoes7WM" style={{
+             display: 'flex'}} target="_blank">
+          {" "}
+          <img
+            src={yt}
+            alt="bogos"
+            width={150}
+            height={"auto"}
+            style={{
+              borderRadius: 20,
+              marginTop: "auto",
+              marginBottom: "auto",
+            }}
+          />
+        </a>
+        <div className="card-text">
+          <h2 className="align-start">Curso de lógica</h2>
+          <p  className=" max-width align-start">
+            Aprenda programação do zero gratuitamente. Este curso é para você que quer aprender lógica de programação do zero
+          </p>
+          <p>
+            <em>*Gratuito! </em>
+          </p>
+          <a href="https://www.youtube.com/watch?v=SYFosoes7WM" target="_blank">
+            <button>Acessar</button>
+          </a>
+        </div>
       </div>
       <div className="card">
         <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B" target="_blank">
