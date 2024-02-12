@@ -35,7 +35,7 @@ function App() {
       </div>
       <div className="card">
         <a href="https://www.youtube.com/watch?v=SYFosoes7WM" style={{
-             display: 'flex'}} target="_blank">
+             display: 'flex', justifyContent: 'center'}} target="_blank">
           {" "}
           <img
             src={yt}
