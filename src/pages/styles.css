@@ -39,13 +39,13 @@
      box-shadow: 0px 0px 20px rgba(52, 136, 221, 0.5), 0px 0px 70px rgba(52, 136, 221, 0.5);
    }
     50% {
-     transform: translateY(-10px); /* Adjust the value to control the distance */
+     transform: translateY(-14px); /* Adjust the value to control the distance */
      box-shadow: 0px 0px 90px rgba(52, 136, 221, 0.5), 0px 0px 200px rgba(52, 136, 221, 0.5);
    }
  }
 
  .magic-logo {
-    animation: moveUpDown  5s ease-in-out infinite; /* Animation properties */
+    animation: moveUpDown  3s ease-in-out infinite; /* Animation properties */
  }
 
  .topper {

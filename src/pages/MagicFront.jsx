@@ -48,7 +48,7 @@ export function MagicFront() {
           <h4 className="bigtitle" style={{textAlign: 'center'}}>
             {" "}
             Aprenda a desenvolver interfaces com tecnologias que{" "}
-            <em className="glowing"> as maiores empresas do mundo </em>
+            <em className="glowing"> as maiores empresas  </em> do mundo
             utilizam{" "}
           </h4>
         </section>
