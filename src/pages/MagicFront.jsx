@@ -48,7 +48,7 @@ export function MagicFront() {
           <h4 className="bigtitle" style={{textAlign: 'center'}}>
             {" "}
             Aprenda a desenvolver interfaces com tecnologias que{" "}
-            <em className="glowing"> as maiores empresas </em>de tecnologia
+            <em className="glowing"> as maiores empresas do mundo </em>
             utilizam{" "}
           </h4>
         </section>
@@ -63,7 +63,7 @@ export function MagicFront() {
           </h4>
           <h2> R$10,00</h2>
           <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B"> <button> Quero me tornar um programador</button> </a>
-          <p> Cartão de crédito, Paypal e Pix </p>
+          <p> Cartão de crédito e Pix </p>
         </section>
       </section>
       <div
@@ -187,6 +187,7 @@ export function MagicFront() {
             bom, explicação clara e completa
           </div>
         </section>
+        
         <section
           style={{
             display: "flex",
@@ -200,9 +201,10 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img src={matias} alt="" width={40} style={{ borderRadius: "50%" }} />
+          <img src={savio2} alt="" width={40} style={{ borderRadius: "50%" }} />
           <div className="text">
-            Gostei muito do ebook. Está me ajudando muito.
+            Comprei há um tempo e comecei a estudar agora. Parabéns pela clareza
+            nas explicações. Muito sucesso você vai longe &#128074; &#128074;
           </div>
         </section>
       </div>
@@ -237,7 +239,7 @@ export function MagicFront() {
             certeza está ajudando muita gente
           </div>
         </section>
-
+    
         <section
           style={{
             display: "flex",
@@ -251,10 +253,9 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img src={savio2} alt="" width={40} style={{ borderRadius: "50%" }} />
+          <img src={matias} alt="" width={40} style={{ borderRadius: "50%" }} />
           <div className="text">
-            Comprei há um tempo e comecei a estudar agora. Parabéns pela clareza
-            nas explicações. Muito sucesso você vai longe &#128074; &#128074;
+            Gostei muito do ebook. Está me ajudando muito.
           </div>
         </section>
         <section
@@ -825,7 +826,7 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img src={sara} alt="" width={70} style={{ borderRadius: "50%" }} />
+          <img src={sara} alt="" width={60} style={{ borderRadius: "50%" }} />
           <div className="text" style={{ fontSize: 18 }}>
             Nunca vi alguém com um conteúdo tão completo com esse preço. Com
             certeza está ajudando muita gente
