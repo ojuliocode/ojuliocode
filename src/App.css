@@ -1,8 +1,7 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   text-align: center;
-  padding: 10px
+  
 }
 
 .drop-shadow{
@@ -36,7 +35,6 @@
   }
 }
 .max-width {
-  max-width: 300px;
 }
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -66,6 +64,9 @@
 }
 
 @media (max-width: 600px) {
+  .bigtitle {
+    width: 90%;
+  }
   .card{
     
   flex-direction: column;
@@ -89,4 +90,24 @@
     margin-bottom: 2px !important;
   }
  }
+ 
+ .abs {
+  position: fixed;
+  left:  0;
+  bottom:  0;
+  width:  100vw;
+  /* Additional styling for the footer */
+  background-color: #f8f9fa;
+  color: black;
+  text-align: center;
+  padding:  10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ;
+}
+
+.none {
+  display: none;
+}
  
