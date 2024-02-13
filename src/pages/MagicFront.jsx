@@ -3,6 +3,7 @@ import "./styles.css";
 import magiclogo from "../assets/magiclogo.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
+import git from "../assets/git.png";
 import js from "../assets/js.png";
 import react from "../assets/react.png";
 import familia from "../assets/familia.jpeg";
@@ -734,6 +735,94 @@ export function MagicFront() {
               <li>Renderizando uma lista </li>
               <li>Como renderizar condiconal</li>
               <li>Compartilhando informações </li>
+            </ul>
+          </section>
+        </div>
+
+        
+        <div
+        className="contentsss"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: 50,
+            marginTop: 50,
+          }}
+        >
+          <section>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <img src={git} alt="" height={45} style={{ padding: 10 }} />
+              <h2 style={{ color: "white" }}> 17. Introdução ao Git </h2>
+            </div>
+            <ul
+              style={{
+                display: "inline-flex",
+                flexDirection: "column",
+                color: "white",
+                textAlign: "start",
+              }}
+            >
+              <li>Overview</li>
+              <li>Para que serve </li>
+              <li>Fluxo do Git</li>
+            </ul>
+          </section>
+          <section>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <img src={git} alt="" height={45} style={{ padding: 10 }} />
+              <h2 style={{ color: "white" }}> 18. Instalando </h2>
+            </div>
+            <ul
+              style={{
+                display: "inline-flex",
+                flexDirection: "column",
+                color: "white",
+                textAlign: "start",
+              }}
+            >
+              <li>Como instalar</li>
+              <li>Configurando o seu primeiro repo</li>
+              <li> Criando o primeiro repositório </li>
+            </ul>
+          </section>
+          <section>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <img src={git} alt="" height={45} style={{ padding: 10 }} />
+              <h2 style={{ color: "white" }}> 19. Como interagir com git </h2>
+            </div>
+            <ul
+              style={{
+                display: "inline-flex",
+                flexDirection: "column",
+                color: "white",
+                textAlign: "start",
+              }}
+            >
+              <li>Principais comandos</li>
+              <li>git add</li>
+              <li>git commit </li>
+              <li>git push </li>
+              <li>git branch </li>
+              <li>Linkando com github </li>
+              <li>Novas modificações</li>
             </ul>
           </section>
         </div>
