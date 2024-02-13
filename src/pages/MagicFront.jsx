@@ -30,8 +30,15 @@ export function MagicFront() {
           justifyContent: "space-around",
         }}
       >
-        <a href="https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing" target="_blank">Planilha de vagas</a>
-        <a href="https://youtube.com/@ojuliocode" target="_blank">Canal no youtube</a>
+        <a
+          href="https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing"
+          target="_blank"
+        >
+          Planilha de vagas
+        </a>
+        <a href="https://youtube.com/@ojuliocode" target="_blank">
+          Canal no youtube
+        </a>
       </section>
       <section className="top-content">
         <section className="title">
@@ -43,14 +50,13 @@ export function MagicFront() {
             style={{ borderRadius: "50%" }}
             className="magic-logo"
           />
-          <h2 className="bigtitle" style={{ marginBottom: 0}}>
+          <h2 className="bigtitle" style={{ marginBottom: 0 }}>
             O manual do desenvolvedor Frontend
           </h2>
-          <h4 className="bigtitle" style={{textAlign: 'center'}}>
+          <h4 className="bigtitle" style={{ textAlign: "center" }}>
             {" "}
             Aprenda a desenvolver interfaces com tecnologias que{" "}
-            <em className="glowing"> as maiores empresas  </em> do mundo
-            utilizam{" "}
+            <em className="glowing"> as maiores empresas </em> do mundo utilizam{" "}
           </h4>
         </section>
         <section className="price-card">
@@ -63,12 +69,22 @@ export function MagicFront() {
             por
           </h4>
           <h2> R$10,00</h2>
-          <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B"> <button> Quero me tornar um programador</button> </a>
+          <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B">
+            {" "}
+            <button> Quero me tornar um programador</button>{" "}
+          </a>
           <p> Cartão de crédito e Pix </p>
         </section>
       </section>
+
+      <div style={{ display: "flex", justifyContent: "center", marginTop: 60 }}>
+        <h2 style={{ fontSize: 34 }} className="bogos bigtitle">
+          {" "}
+          <em className="glowing"> Mensagens que recebo no Instagram </em>{" "}
+        </h2>
+      </div>
       <div
-      className="feedback-row"
+        className="feedback-row"
         style={{
           display: "flex",
           justifyContent: "center",
@@ -91,12 +107,6 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img
-            src={familia}
-            alt=""
-            width={40}
-            style={{ borderRadius: "50%" }}
-          />
           <div className="text">
             Terminei de estudar o ebook hoje, e posso te falar que é o melhor
             conteúdo de programação a esse preço!!
@@ -115,7 +125,6 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img src={ana} alt="" width={40} style={{ borderRadius: "50%" }} />
           <div className="text">
             Parabéns pelo trabalho com o youtube e o conteúdo &#128079;
             &#128079;
@@ -135,12 +144,11 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img src={leo} alt="" width={40} style={{ borderRadius: "50%" }} />
           <div className="text">Parabéns pelo conteúdo, muito bom</div>
         </section>
       </div>
       <div
-      className="feedback-row"
+        className="feedback-row"
         style={{
           display: "flex",
           justifyContent: "center",
@@ -163,7 +171,6 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img src={clara} alt="" width={40} style={{ borderRadius: "50%" }} />
           <div className="text">
             Um dos melhores conteúdos de programação aqui no insta &#10084;
           </div>
@@ -182,13 +189,12 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img src={joao} alt="" width={40} style={{ borderRadius: "50%" }} />
           <div className="text">
             Eai brother. Queria te passar o feedback sobre o seu livro. Muito
             bom, explicação clara e completa
           </div>
         </section>
-        
+
         <section
           style={{
             display: "flex",
@@ -202,7 +208,6 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img src={savio2} alt="" width={40} style={{ borderRadius: "50%" }} />
           <div className="text">
             Comprei há um tempo e comecei a estudar agora. Parabéns pela clareza
             nas explicações. Muito sucesso você vai longe &#128074; &#128074;
@@ -210,7 +215,7 @@ export function MagicFront() {
         </section>
       </div>
       <div
-      className="feedback-row"
+        className="feedback-row"
         style={{
           display: "flex",
           justifyContent: "center",
@@ -234,13 +239,12 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img src={sara} alt="" width={40} style={{ borderRadius: "50%" }} />
           <div className="text">
             Nunca vi alguém com um conteúdo tão completo com esse preço. Com
             certeza está ajudando muita gente
           </div>
         </section>
-    
+
         <section
           style={{
             display: "flex",
@@ -254,34 +258,33 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img src={matias} alt="" width={40} style={{ borderRadius: "50%" }} />
           <div className="text">
             Gostei muito do ebook. Está me ajudando muito.
           </div>
         </section>
-        <section
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            gap: 20,
-            alignItems: "end",
-            color: "white",
-            padding: 15,
-            backgroundColor: "rgb(2, 12, 26)",
-            borderRadius: 10,
-          }}
-          className="feedbacks"
-        >
-          <img src={couple} alt="" width={40} style={{ borderRadius: "50%" }} />
-          <div className="text">Excelente conteúdo</div>
-        </section>
       </div>
-      <section style={{ marginTop: 100, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-        <h2 style={{ fontSize: 34, }} className="bogos bigtitle">
+      <section
+        style={{
+          marginTop: 100,
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <h2 style={{ fontSize: 34 }} className="bogos bigtitle">
           {" "}
           <em className="glowing">O que vou aprender neste manual? </em>{" "}
         </h2>
-        <div className="contentsss" style={{ display: "flex", justifyContent: "center", gap: 50, marginTop: 50  }}>
+        <div
+          className="contentsss"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: 50,
+            marginTop: 50,
+          }}
+        >
           <section>
             <div
               style={{
@@ -361,7 +364,7 @@ export function MagicFront() {
           </section>
         </div>
         <div
-        className="contentsss"
+          className="contentsss"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -450,7 +453,7 @@ export function MagicFront() {
           </section>
         </div>
         <div
-        className="contentsss"
+          className="contentsss"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -511,7 +514,7 @@ export function MagicFront() {
           </section>
         </div>
         <div
-        className="contentsss"
+          className="contentsss"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -595,7 +598,7 @@ export function MagicFront() {
           </section>
         </div>
         <div
-        className="contentsss"
+          className="contentsss"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -609,10 +612,10 @@ export function MagicFront() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                gap: 10
+                gap: 10,
               }}
             >
-              <img src={js} alt="" height={45}/>
+              <img src={js} alt="" height={45} />
               <h2 style={{ color: "white" }}> 12. Métodos </h2>
             </div>
             <ul
@@ -654,7 +657,7 @@ export function MagicFront() {
           </section>
         </div>
         <div
-        className="contentsss"
+          className="contentsss"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -739,9 +742,8 @@ export function MagicFront() {
           </section>
         </div>
 
-        
         <div
-        className="contentsss"
+          className="contentsss"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -826,11 +828,11 @@ export function MagicFront() {
             </ul>
           </section>
         </div>
-        <h2 style={{ fontSize: 40, margin: '0 !important'}}>
+        <h2 style={{ fontSize: 40, margin: "0 !important" }}>
           <em className="glowing"> Extra! </em>{" "}
         </h2>
         <div
-        className="contentsss"
+          className="contentsss"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -847,8 +849,8 @@ export function MagicFront() {
                 gap: 10,
               }}
             >
-              <img src={linkedin} alt="" height={45} style={{ }} />
-              <h2 style={{ color: "white" , }}> 1.Montar um currículo </h2>
+              <img src={linkedin} alt="" height={45} style={{}} />
+              <h2 style={{ color: "white" }}> 1.Montar um currículo </h2>
             </div>
             <ul
               style={{
@@ -915,7 +917,6 @@ export function MagicFront() {
           }}
           className="feedbacks"
         >
-          <img src={sara} alt="" width={60} style={{ borderRadius: "50%" }} />
           <div className="text" style={{ fontSize: 18 }}>
             Nunca vi alguém com um conteúdo tão completo com esse preço. Com
             certeza está ajudando muita gente
@@ -935,14 +936,16 @@ export function MagicFront() {
             alignItems: "center",
           }}
         >
-          <h2 style={{ margin: 0, textAlign: 'center', fontSize: 22}}>
+          <h2 style={{ margin: 0, textAlign: "center", fontSize: 22 }}>
             Torne-se um desenvolvedor Frontend e faça parte dos melhores{" "}
           </h2>
-          <h4 style={{ display: "inline", textAlign: 'center' }}>
+          <h4 style={{ display: "inline", textAlign: "center" }}>
             De <span style={{ textDecoration: "line-through" }}>R$49,90</span>{" "}
             por <em style={{ fontSize: 30 }}>R$10,00 </em>
           </h4>
-          <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B"><button>Quero me tornar um programador</button></a>
+          <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B">
+            <button>Quero me tornar um programador</button>
+          </a>
         </section>
       </div>
     </div>
