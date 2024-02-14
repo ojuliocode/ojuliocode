@@ -69,7 +69,7 @@ export function MagicFront() {
             por
           </h4>
           <h2> R$10,00</h2>
-          <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B">
+          <a href="https://pay.hotmart.com/Y88783634B">
             {" "}
             <button> Quero me tornar um programador</button>{" "}
           </a>
@@ -943,7 +943,7 @@ export function MagicFront() {
             De <span style={{ textDecoration: "line-through" }}>R$49,90</span>{" "}
             por <em style={{ fontSize: 30 }}>R$10,00 </em>
           </h4>
-          <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B">
+          <a href="https://pay.hotmart.com/Y88783634B">
             <button>Quero me tornar um programador</button>
           </a>
         </section>

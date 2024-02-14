@@ -37,7 +37,7 @@ function App() {
         &#9888;&#65039; Oferta limitada. Torne-se um desenvolvedor frontend hoje
           mesmo
         </span>
-        <a href="https://hotmart.com/pt-br/marketplace/produtos/omagicfront/Y88783634B">  <button> Quero garantir a oferta </button> </a>
+        <a href="https://pay.hotmart.com/Y88783634B">  <button> Quero garantir a oferta </button> </a>
       </div>
       <div className="topper">
         Esta página foi criada usando ensinamentos do Magic Front
