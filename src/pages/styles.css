@@ -108,3 +108,12 @@ user-select: none; /* Standard */
 li {
     text-align: start;
 }
+
+.links a {
+    color: white;
+    font-weight: bold;
+}
+
+.links a:hover{
+    color: rgb(255, 255, 255);
+}

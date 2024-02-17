@@ -24,10 +24,12 @@ export function MagicFront() {
   return (
     <div className="page-wrapper">
       <section
+      className="links"
         style={{
           padding: "40px",
           display: "flex",
-          justifyContent: "space-around",
+          justifyContent: "center",
+          gap: '30px'
         }}
       >
         <a
@@ -37,8 +39,9 @@ export function MagicFront() {
           Planilha de vagas
         </a>
         <a href="https://youtube.com/@ojuliocode" target="_blank">
-          Canal no youtube
+          Youtube
         </a>
+        <a href="https://forms.gle/GeNzDvqu6SPoRMWu6"  target="_blank"> Mentoria &#128640;</a>
       </section>
       <section className="top-content">
         <section className="title">
