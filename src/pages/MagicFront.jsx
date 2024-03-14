@@ -38,7 +38,7 @@ export function MagicFront() {
         >
           Planilha de vagas
         </a>
-        <a href="https://youtube.com/@ojuliocode" target="_blank">
+        <a href="https://youtu.be/8EHyH77pXEs" target="_blank">
           Youtube
         </a>
         <a href="https://forms.gle/GeNzDvqu6SPoRMWu6"  target="_blank"> Mentoria &#128640;</a>
