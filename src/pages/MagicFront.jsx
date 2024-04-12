@@ -21,6 +21,7 @@ import sara from "../assets/sara.jpeg";
 import joao from "../assets/joao.jpeg";
 
 export function MagicFront() {
+  const fluencypasslink = 'https://fluencypass.com/plans?utm_campaign=pap&affiliate=ojuliocode&a_bid=1383b569&utm_source=instagram&utm_medium=bio'
   return (
     <div className="page-wrapper">
       <section
@@ -32,6 +33,7 @@ export function MagicFront() {
           gap: '30px'
         }}
       >
+        { /*
         <a
           href="https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing"
           target="_blank"
@@ -42,7 +44,16 @@ export function MagicFront() {
           Youtube
         </a>
         <a href="https://forms.gle/GeNzDvqu6SPoRMWu6"  target="_blank"> Mentoria &#128640;</a>
-      </section>
+      */ }
+      
+      <a
+          href={fluencypasslink}
+          target="_blank"
+          className="single-link"
+        >
+          FluencyPass - 47% OFF! 
+        </a>
+         </section>
       <section className="top-content">
         <section className="title">
           <img
