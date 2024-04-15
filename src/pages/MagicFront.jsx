@@ -49,7 +49,7 @@ export function MagicFront() {
       <a
           href={fluencypasslink}
           target="_blank"
-          className="single-link"
+          className="single-link special-link"
         >
           FluencyPass - 47% OFF! 
         </a>

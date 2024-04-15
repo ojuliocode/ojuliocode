@@ -108,7 +108,9 @@ user-select: none; /* Standard */
 li {
     text-align: start;
 }
-
+.links {
+    margin-bottom: 30px;
+}
 .links a {
     color: white;
     font-weight: bold;
@@ -119,7 +121,18 @@ li {
 }
 
 .single-link {
-    background-color: rgb(23, 94, 210);
+    background-color: rgb(224, 99, 103);
     border-radius: 10px;
     padding: 10px;
+}
+
+.special-link{
+    transition: all 0.2s;
+    font-size: 18px;
+  }
+
+.special-link:hover{
+    
+  transform: scale(1.04);
+  transition: all 0.2s;
 }
