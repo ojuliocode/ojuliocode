@@ -22,6 +22,7 @@ import joao from "../assets/joao.jpeg";
 
 export function MagicFront() {
   const fluencypasslink = 'https://fluencypass.com/plans?utm_campaign=pap&affiliate=ojuliocode&a_bid=1383b569&utm_source=instagram&utm_medium=bio'
+  const vagas = 'https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing'
   return (
     <div className="page-wrapper">
       <section
@@ -51,8 +52,17 @@ export function MagicFront() {
           target="_blank"
           className="single-link special-link"
         >
-          FluencyPass - 47% OFF! 
+          FluencyPass
         </a>
+        
+      <a
+          href={vagas}
+          target="_blank"
+          className="single-link"
+        >
+          Vagas!
+        </a>
+        
          </section>
       <section className="top-content">
         <section className="title">

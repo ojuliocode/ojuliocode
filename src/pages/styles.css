@@ -121,7 +121,7 @@ li {
 }
 
 .single-link {
-    background-color: rgb(224, 99, 103);
+    background-color: rgb(47, 132, 57);
     border-radius: 10px;
     padding: 10px;
 }
@@ -129,6 +129,7 @@ li {
 .special-link{
     transition: all 0.2s;
     font-size: 18px;
+    background-color: rgb(224, 99, 103);
   }
 
 .special-link:hover{

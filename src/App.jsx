@@ -11,7 +11,7 @@ import { MagicFront } from "./pages/MagicFront";
 function App() {
   const [count, setCount] = useState(0);
   const [showFooter, setShowFooter] = useState(1);
-
+  console.log("Olá! XD")
   useEffect(() => {
     const handleScroll = () => {
       if(window.scrollY <= 700)
