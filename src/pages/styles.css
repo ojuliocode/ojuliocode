@@ -121,14 +121,13 @@ li {
 }
 
 .single-link {
-    background-color: rgb(47, 132, 57);
     border-radius: 10px;
     padding: 10px;
 }
 
 .special-link{
     transition: all 0.2s;
-    font-size: 18px;
+    font-size: 15px;
     background-color: rgb(224, 99, 103);
   }
 

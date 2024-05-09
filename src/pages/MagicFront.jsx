@@ -55,13 +55,6 @@ export function MagicFront() {
           FluencyPass
         </a>
         
-      <a
-          href={vagas}
-          target="_blank"
-          className="single-link"
-        >
-          Vagas!
-        </a>
         
          </section>
       <section className="top-content">
