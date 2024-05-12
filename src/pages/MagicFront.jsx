@@ -28,7 +28,7 @@ export function MagicFront() {
       <section
       className="links"
         style={{
-          padding: "40px",
+          padding: "30px",
           display: "flex",
           justifyContent: "center",
           gap: '30px'
@@ -47,15 +47,6 @@ export function MagicFront() {
         <a href="https://forms.gle/GeNzDvqu6SPoRMWu6"  target="_blank"> Mentoria &#128640;</a>
       */ }
       
-      <a
-          href={fluencypasslink}
-          target="_blank"
-          className="single-link special-link"
-        >
-          FluencyPass
-        </a>
-        
-        
          </section>
       <section className="top-content">
         <section className="title">
