@@ -36,13 +36,14 @@ export function MagicFront() {
         }}
       >
         
+        { /*
+        
         <a
           href="https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing"
           target="_blank"
         >
           Planilha de vagas
         </a>
-        { /*
         <a href="https://youtu.be/jvi87nm_-KM" target="_blank">
           Youtube
         </a>
