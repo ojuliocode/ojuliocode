@@ -8,8 +8,6 @@
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
@@ -19,9 +17,6 @@
 
 .unselectable {
  user-select: none;
- -webkit-user-select: none; /* Safari */
- -moz-user-select: none; /* Firefox */
- -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 a {
@@ -83,9 +78,5 @@ button:focus-visible {
 
   * {
     user-drag: none;
-    -webkit-user-drag: none;
     user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
   }

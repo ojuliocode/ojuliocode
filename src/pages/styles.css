@@ -59,10 +59,7 @@
     border-radius: 15px;
     padding: 10px;
     width: 200px;
-    text-align: start;
-    -webkit-user-select: none; /* Safari */        
--moz-user-select: none; /* Firefox */
--ms-user-select: none; /* IE10+/Edge */
+    text-align: start;  
 user-select: none; /* Standard */
  }
 
@@ -72,9 +69,6 @@ user-select: none; /* Standard */
  }
 
  .unselectable {
-    -webkit-user-select: none; /* Safari */        
--moz-user-select: none; /* Firefox */
--ms-user-select: none; /* IE10+/Edge */
 user-select: none; /* Standard */
  }
 
