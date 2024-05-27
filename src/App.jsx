@@ -1,10 +1,4 @@
 import { useState, useEffect } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import pfp from "./assets/pfp.png";
-import sheets from "./assets/sheets.png";
-import ad from "./assets/ad.png";
-import yt from "./assets/yt.png";
 import "./App.css";
 import { MagicFront } from "./pages/MagicFront";
 

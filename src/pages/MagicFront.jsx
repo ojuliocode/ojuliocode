@@ -1,24 +1,11 @@
-import { useState } from "react";
 import "./styles.css";
-import magiclogo from "../assets/magiclogo.png";
+import magiclogo from "../assets/magiclogo.webp";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import git from "../assets/git.png";
 import js from "../assets/js.png";
 import react from "../assets/react.png";
-import familia from "../assets/familia.jpeg";
-import carlinho from "../assets/carlinho.jpeg";
-import clara from "../assets/clara.jpeg";
-import ana from "../assets/ana.jpeg";
-import savio2 from "../assets/savio2.jpeg";
-import savio from "../assets/savio.jpeg";
-import matias from "../assets/matias.jpeg";
 import linkedin from "../assets/linkedin.jpeg";
-import couple from "../assets/couple.jpeg";
-import jorge from "../assets/jorge.jpeg";
-import leo from "../assets/leo.jpeg";
-import sara from "../assets/sara.jpeg";
-import joao from "../assets/joao.jpeg";
 
 export function MagicFront() {
   const fluencypasslink = 'https://fluencypass.com/plans?utm_campaign=pap&affiliate=ojuliocode&a_bid=1383b569&utm_source=instagram&utm_medium=bio'
