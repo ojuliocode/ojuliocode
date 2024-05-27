@@ -10,11 +10,10 @@
   <meta name="description"
     content="Julio Code: como aprender frontend do zero! O Manual do desenvolvedor Frontend com HTML, CSS, JS e React" />
 
-  <link rel="preload" href="https://fonts.googleapis.com">
-  <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-    rel="stylesheet">
+    <!-- Preload fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"></noscript>
+    <!-- Other head elements -->
 
 
 </head>
@@ -22,6 +21,18 @@
 <body>
   <div id="root"></div>
   <script type="module" src="./src/main.jsx"></script>
+
+  
+  <script>
+    // Defer non-critical CSS
+    var css = document.createElement('link');
+    css.href = "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap";
+    css.rel = "stylesheet";
+    css.type = "text/css";
+    document.getElementsByTagName("head")[0].appendChild(css);
+</script>
+
+
 </body>
 
 </html>
