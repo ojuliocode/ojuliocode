@@ -67,9 +67,7 @@ user-select: none; /* Standard */
  }
 
  .glowing {
-  background: -webkit-linear-gradient(left, #0aa6e9, #9dd2f3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:  #58c2ef;
   font-style: normal;
  }
 
