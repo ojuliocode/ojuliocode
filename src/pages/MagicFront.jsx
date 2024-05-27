@@ -57,14 +57,14 @@ export function MagicFront() {
             src={magiclogo}
             alt="fdasf"
             width={200}
-            height={"auto"}
+            height={200}
             style={{ borderRadius: "50%" }}
             className="magic-logo"
           />
-          <h2 className="bigtitle" style={{ marginBottom: 0 }}>
+          <h1 className="bigtitle" style={{ marginBottom: 0, fontSize: 40, textAlign: "center"}}>
             O manual do desenvolvedor Frontend
-          </h2>
-          <h4 className="bigtitle" style={{ textAlign: "center" }}>
+          </h1>
+          <h4 className="bigtitle" style={{ textAlign: "center", fontSize: 25 }}>
             {" "}
             Aprenda a desenvolver interfaces com tecnologias que{" "}
             <em className="glowing"> as maiores empresas </em> do mundo utilizam{" "}
@@ -79,7 +79,7 @@ export function MagicFront() {
             </span>{" "}
             por
           </h4>
-          <h2> R$10,00</h2>
+          <h3 style={{fontSize: 27}}> R$10,00</h3>
           <a href="https://pay.hotmart.com/Y88783634B">
             {" "}
             <button> Quero me tornar um programador</button>{" "}
@@ -89,10 +89,10 @@ export function MagicFront() {
       </section>
 
       <div style={{ display: "flex", justifyContent: "center", marginTop: 60 }}>
-        <h2 style={{ fontSize: 34 }} className="bogos bigtitle">
+        <h3 style={{ fontSize: 34 }} className="bogos bigtitle">
           {" "}
           <em className="glowing"> Mensagens que recebo no Instagram </em>{" "}
-        </h2>
+        </h3>
       </div>
       <div
         className="feedback-row"
@@ -283,10 +283,10 @@ export function MagicFront() {
           alignItems: "center",
         }}
       >
-        <h2 style={{ fontSize: 34 }} className="bogos bigtitle">
+        <h3 style={{ fontSize: 34 }} className="bogos bigtitle">
           {" "}
           <em className="glowing">O que vou aprender neste manual? </em>{" "}
-        </h2>
+        </h3>
         <div
           className="contentsss"
           style={{
@@ -304,8 +304,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={html} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 1. Introdução ao HTML </h2>
+              <img src={html} alt="HTML Logo (Hypertext Markup Language)" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 1. Introdução ao HTML </h3>
             </div>
             <ul
               style={{
@@ -330,8 +330,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={html} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 2. Aprofundando </h2>
+              <img src={html} alt="HTML Logo (Hypertext Markup Language)" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 2. Aprofundando </h3>
             </div>
             <ul
               style={{
@@ -356,8 +356,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={html} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 3. Listas </h2>
+              <img src={html} alt="HTML Logo (Hypertext Markup Language)" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 3. Listas </h3>
             </div>
             <ul
               style={{
@@ -391,8 +391,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={css} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 4. Introdução ao CSS </h2>
+              <img src={css} alt="CSS Logo (Cascading StyleSheet)" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 4. Introdução ao CSS </h3>
             </div>
             <ul
               style={{
@@ -418,8 +418,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={css} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 5. Aprofundando </h2>
+              <img src={css} alt="CSS Logo (Cascading StyleSheet)" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 5. Aprofundando </h3>
             </div>
             <ul
               style={{
@@ -444,8 +444,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={css} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 6. Box Model </h2>
+              <img src={css} alt="CSS Logo (Cascading StyleSheet)" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 6. Box Model </h3>
             </div>
             <ul
               style={{
@@ -480,8 +480,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={css} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 7. Tipos de caixas </h2>
+              <img src={css} alt="CSS Logo (Cascading StyleSheet)" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 7. Tipos de caixas </h3>
             </div>
             <ul
               style={{
@@ -504,8 +504,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={css} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 8. Flexbox </h2>
+              <img src={css} alt="CSS Logo (Cascading StyleSheet)" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 8. Flexbox </h3>
             </div>
             <ul
               style={{
@@ -541,8 +541,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={js} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 9. Introdução ao JS </h2>
+              <img src={js} alt="JS logo (javascript)" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 9. Introdução ao JS </h3>
             </div>
             <ul
               style={{
@@ -566,8 +566,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={js} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 10. Tipos de dados </h2>
+              <img src={js} alt="Javascript logo" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 10. Tipos de dados </h3>
             </div>
             <ul
               style={{
@@ -590,8 +590,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={js} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 11. Condicionais </h2>
+              <img src={js} alt="Javascript logo" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 11. Condicionais </h3>
             </div>
             <ul
               style={{
@@ -626,8 +626,8 @@ export function MagicFront() {
                 gap: 10,
               }}
             >
-              <img src={js} alt="" height={45} />
-              <h2 style={{ color: "white" }}> 12. Métodos </h2>
+              <img src={js} alt="Javascript logo" height={45} />
+              <h3 style={{ color: "white" }}> 12. Métodos </h3>
             </div>
             <ul
               style={{
@@ -650,8 +650,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={js} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 13. Objetos </h2>
+              <img src={js} alt="Javascript logo" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 13. Objetos </h3>
             </div>
             <ul
               style={{
@@ -684,8 +684,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={react} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 14. Introdução ao React </h2>
+              <img src={react} alt="React framework library logo " height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 14. Introdução ao React </h3>
             </div>
             <ul
               style={{
@@ -709,8 +709,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={react} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 15. Componentes </h2>
+              <img src={react} alt="React framework library logo " height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 15. Componentes </h3>
             </div>
             <ul
               style={{
@@ -734,8 +734,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={react} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 16. Renderizando JS </h2>
+              <img src={react} alt="React framework library logo " height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 16. Renderizando JS </h3>
             </div>
             <ul
               style={{
@@ -770,8 +770,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={git} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 17. Introdução ao Git </h2>
+              <img src={git} alt="Git and github logo" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 17. Introdução ao Git </h3>
             </div>
             <ul
               style={{
@@ -794,8 +794,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={git} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 18. Instalando </h2>
+              <img src={git} alt="Git and github logo" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 18. Instalando </h3>
             </div>
             <ul
               style={{
@@ -818,8 +818,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={git} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 19. Como interagir com git </h2>
+              <img src={git} alt="Git and github logo" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 19. Como interagir com git </h3>
             </div>
             <ul
               style={{
@@ -839,9 +839,9 @@ export function MagicFront() {
             </ul>
           </section>
         </div>
-        <h2 style={{ fontSize: 40, margin: "0 !important" }}>
+        <h3 style={{ fontSize: 40, margin: "0 !important" }}>
           <em className="glowing"> Extra! </em>{" "}
-        </h2>
+        </h3>
         <div
           className="contentsss"
           style={{
@@ -860,8 +860,8 @@ export function MagicFront() {
                 gap: 10,
               }}
             >
-              <img src={linkedin} alt="" height={45} style={{}} />
-              <h2 style={{ color: "white" }}> 1.Montar um currículo </h2>
+              <img src={linkedin} alt="Linkedin logo" height={45} width={40} style={{}} />
+              <h3 style={{ color: "white" }}> 1.Montar um currículo </h3>
             </div>
             <ul
               style={{
@@ -886,8 +886,8 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={linkedin} alt="" height={45} style={{ padding: 10 }} />
-              <h2 style={{ color: "white" }}> 2. Linkedin </h2>
+              <img src={linkedin} alt="Linkedin logo" height={45} width={40} style={{ padding: 10 }} />
+              <h3 style={{ color: "white" }}> 2. Linkedin </h3>
             </div>
             <ul
               style={{
@@ -947,9 +947,9 @@ export function MagicFront() {
             alignItems: "center",
           }}
         >
-          <h2 style={{ margin: 0, textAlign: "center", fontSize: 22 }}>
+          <h3 style={{ margin: 0, textAlign: "center", fontSize: 22 }}>
             Torne-se um desenvolvedor Frontend e faça parte dos melhores{" "}
-          </h2>
+          </h3>
           <h4 style={{ display: "inline", textAlign: "center" }}>
             De <span style={{ textDecoration: "line-through" }}>R$49,90</span>{" "}
             por <em style={{ fontSize: 30 }}>R$10,00 </em>
