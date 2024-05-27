@@ -1,11 +1,11 @@
 import "./styles.css";
 import magiclogo from "../assets/magiclogo.webp";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import git from "../assets/git.png";
-import js from "../assets/js.png";
-import react from "../assets/react.png";
-import linkedin from "../assets/linkedin.jpeg";
+import html from "../assets/html.webp";
+import css from "../assets/css.webp";
+import git from "../assets/git.webp";
+import js from "../assets/js.webp";
+import react from "../assets/react.webp";
+import linkedin from "../assets/ldn.webp";
 
 export function MagicFront() {
   const fluencypasslink = 'https://fluencypass.com/plans?utm_campaign=pap&affiliate=ojuliocode&a_bid=1383b569&utm_source=instagram&utm_medium=bio'
@@ -52,9 +52,8 @@ export function MagicFront() {
             O manual do desenvolvedor Frontend
           </h1>
           <h4 className="bigtitle" style={{ textAlign: "center", fontSize: 25 }}>
-            {" "}
-            Aprenda a desenvolver interfaces com tecnologias que{" "}
-            <em className="glowing"> as maiores empresas </em> do mundo utilizam{" "}
+            Aprenda a desenvolver interfaces com tecnologias que
+            <span className="glowing"> as maiores empresas </span> do mundo utilizam
           </h4>
         </section>
         <section className="price-card">
@@ -847,7 +846,7 @@ export function MagicFront() {
                 gap: 10,
               }}
             >
-              <img src={linkedin} alt="Linkedin logo" height={45} width={40} style={{}} />
+              <img src={linkedin} alt="Linkedin logo" height={45} width={45} style={{}} />
               <h3 style={{ color: "white" }}> 1.Montar um currículo </h3>
             </div>
             <ul
@@ -873,7 +872,7 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={linkedin} alt="Linkedin logo" height={45} width={40} style={{ padding: 10 }} />
+              <img src={linkedin} alt="Linkedin logo" height={45} width={45} style={{ padding: 10 }} />
               <h3 style={{ color: "white" }}> 2. Linkedin </h3>
             </div>
             <ul
