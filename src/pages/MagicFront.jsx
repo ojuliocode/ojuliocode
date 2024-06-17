@@ -22,7 +22,14 @@ export function MagicFront() {
           marginBottom: '20px'
         }}
       >
-        
+        <a target="_blank" href="https://bit.ly/code-vagas"
+        style={{
+          backgroundColor: 'white',
+          color: 'rgb(23, 94, 210)',
+          fontWeight: 'bold',
+          padding: 6,
+          borderRadius: 10
+        }}> Planiha de Vagas </a>
         { /*
         
         <a
