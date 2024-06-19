@@ -22,27 +22,6 @@ export function MagicFront() {
           marginBottom: '20px'
         }}
       >
-        <a target="_blank" href="https://bit.ly/code-vagas"
-        style={{
-          backgroundColor: 'white',
-          color: 'rgb(23, 94, 210)',
-          fontWeight: 'bold',
-          padding: 6,
-          borderRadius: 10
-        }}> Planiha de Vagas </a>
-        { /*
-        
-        <a
-          href="https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing"
-          target="_blank"
-        >
-          Planilha de vagas
-        </a>
-        <a href="https://youtu.be/jvi87nm_-KM" target="_blank">
-          Youtube
-        </a>
-        <a href="https://forms.gle/GeNzDvqu6SPoRMWu6"  target="_blank"> Mentoria &#128640;</a>
-      */ }
       
          </section>
       <section className="top-content">
