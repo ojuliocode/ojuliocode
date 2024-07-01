@@ -22,7 +22,9 @@ export function MagicFront() {
           marginBottom: '20px'
         }}
       >
-      
+        <button style={{padding: 0, backgroundColor: 'transparent'}}>
+        <a style={{padding: 10, borderRadius: 10, backgroundColor: '#386fd6'}} href="https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing">
+        Modelo de Currículo</a></button>
          </section>
       <section className="top-content">
         <section className="title">
