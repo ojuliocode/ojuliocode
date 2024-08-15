@@ -8,10 +8,15 @@ import react from "../assets/react.webp";
 import linkedin from "../assets/ldn.webp";
 
 export function MagicFront() {
-  const fluencypasslink = 'https://fluencypass.com/plans?utm_campaign=pap&affiliate=ojuliocode&a_bid=1383b569&utm_source=instagram&utm_medium=bio'
-  const vagas = 'https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing'
+    const vagas = 'https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing'
+    const CV = 'https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing'
   return (
     <div className="page-wrapper">
+        <button style={{padding: 0, marginTop: 20}}> 
+            <a style={{color: 'white', backgroundColor: 'rgb(85, 145, 213)', padding: 10, borderRadius: 10}} href={CV}>
+                Modelo de Currículo
+            </a>
+        </button>
       <section
       className="links"
         style={{
@@ -54,7 +59,7 @@ export function MagicFront() {
           <h3 style={{fontSize: 27}}> R$10,00</h3>
           <a href="https://pay.hotmart.com/Y88783634B">
             {" "}
-            <button> Quero me tornar um programador</button>{" "}
+            <button> Conferir meu desconto </button>{" "}
           </a>
           <p> Cartão de crédito e Pix </p>
         </section>
