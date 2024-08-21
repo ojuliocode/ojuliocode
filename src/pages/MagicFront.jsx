@@ -12,11 +12,7 @@ export function MagicFront() {
     const CV = 'https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing'
   return (
     <div className="page-wrapper">
-        <button style={{padding: 0, marginTop: 20}}> 
-            <a style={{color: 'white', backgroundColor: 'rgb(85, 145, 213)', padding: 10, borderRadius: 10}} href={CV}>
-                Modelo de Currículo
-            </a>
-        </button>
+        
       <section
       className="links"
         style={{
