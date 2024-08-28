@@ -6,11 +6,15 @@ import git from "../assets/git.webp";
 import js from "../assets/js.webp";
 import react from "../assets/react.webp";
 import linkedin from "../assets/ldn.webp";
+import jala from "../assets/jalawebp.webp";
 
 export function MagicFront() {
     const vagas = 'https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing'
     const CV = 'https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing'
-  return (
+    
+    const JALALINK = 'https://jala.university/pt/curso-gratuito-de-programacao/'
+  
+    return (
     <div className="page-wrapper">
         
       <section
@@ -20,10 +24,13 @@ export function MagicFront() {
           display: "flex",
           justifyContent: "center",
           gap: '30px',
-          marginBottom: '20px'
+          marginBottom: '20px',
         }}
       >
-        
+        <img width={200} height='auto' src={jala} alt="" />
+        <button style={{padding: 0, borderRadius: 0, backgroundColor: 'transparent'}}>
+            <a style={{backgroundColor:'#004bd6', padding: 10, borderRadius: 10}} href={JALALINK} target="_blank">Inscrição curso de programação - JALA</a>
+        </button>
          </section>
       <section className="top-content">
         <section className="title">
