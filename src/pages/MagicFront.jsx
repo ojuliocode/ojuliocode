@@ -15,6 +15,7 @@ export function MagicFront() {
   
     return (
     <div className="page-wrapper">
+        {/*
       <section
       className="links"
         style={{
@@ -27,7 +28,7 @@ export function MagicFront() {
         <button style={{padding: 0, borderRadius: 0, backgroundColor: 'transparent', border: 'none'}}>
             <a style={{backgroundColor:'#004bd6', padding: 10, borderRadius: 10, fontSize: 25}} href={vagas} target="_blank">Planilha de vagas</a>
         </button>
-         </section>
+         </section> */}
       <section className="top-content">
         <section className="title">
           <img
