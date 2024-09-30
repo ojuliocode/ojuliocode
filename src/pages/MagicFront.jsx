@@ -9,28 +9,44 @@ import linkedin from "../assets/ldn.webp";
 import vaguinhas from "../assets/vaguinhas.png";
 
 export function MagicFront() {
-    const vagas = 'https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing'
-    const CV = 'https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing'
-    
-  
-    return (
+  const vagas =
+    "https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing";
+  const CV =
+    "https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing";
+
+  return (
     <div className="page-wrapper">
-        {
-            /**
       <section
-      className="links"
+        className="links"
         style={{
           display: "flex",
           justifyContent: "center",
-          gap: '30px',
-          marginBottom: '20px',
+          gap: "30px",
+          marginBottom: "20px",
         }}
       >
-        <button style={{padding: 0, borderRadius: 0, backgroundColor: 'transparent', border: 'none'}}>
-            <a style={{backgroundColor:'#004bd6', padding: 10, borderRadius: 10, fontSize: 24}} href={CV} target="_blank">Modelo de currículo</a>
+        <button
+          style={{
+            padding: 0,
+            borderRadius: 0,
+            backgroundColor: "transparent",
+            border: "none",
+          }}
+        >
+          <a
+            style={{
+              backgroundColor: "#004bd6",
+              padding: 10,
+              borderRadius: 10,
+              fontSize: 24,
+            }}
+            href={vagas}
+            target="_blank"
+          >
+            Planilha de vagas
+          </a>
         </button>
-         </section>  */
-        }
+      </section>
       <section className="top-content">
         <section className="title">
           <img
@@ -41,12 +57,19 @@ export function MagicFront() {
             style={{ borderRadius: "50%" }}
             className="magic-logo"
           />
-          <h1 className="bigtitle" style={{ marginBottom: 0, fontSize: 40, textAlign: "center"}}>
+          <h1
+            className="bigtitle"
+            style={{ marginBottom: 0, fontSize: 40, textAlign: "center" }}
+          >
             O manual do desenvolvedor Frontend
           </h1>
-          <h4 className="bigtitle" style={{ textAlign: "center", fontSize: 25 }}>
+          <h4
+            className="bigtitle"
+            style={{ textAlign: "center", fontSize: 25 }}
+          >
             Aprenda a desenvolver interfaces com tecnologias que
-            <span className="glowing"> as maiores empresas </span> do mundo utilizam
+            <span className="glowing"> as maiores empresas </span> do mundo
+            utilizam
           </h4>
         </section>
         <section className="price-card">
@@ -58,7 +81,7 @@ export function MagicFront() {
             </span>{" "}
             por
           </h4>
-          <h3 style={{fontSize: 27}}> R$10,00</h3>
+          <h3 style={{ fontSize: 27 }}> R$10,00</h3>
           <a href="https://pay.hotmart.com/Y88783634B">
             {" "}
             <button> Conferir meu desconto </button>{" "}
@@ -283,7 +306,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={html} alt="HTML Logo (Hypertext Markup Language)" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={html}
+                alt="HTML Logo (Hypertext Markup Language)"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 1. Introdução ao HTML </h3>
             </div>
             <ul
@@ -309,7 +338,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={html} alt="HTML Logo (Hypertext Markup Language)" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={html}
+                alt="HTML Logo (Hypertext Markup Language)"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 2. Aprofundando </h3>
             </div>
             <ul
@@ -335,7 +370,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={html} alt="HTML Logo (Hypertext Markup Language)" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={html}
+                alt="HTML Logo (Hypertext Markup Language)"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 3. Listas </h3>
             </div>
             <ul
@@ -370,7 +411,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={css} alt="CSS Logo (Cascading StyleSheet)" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={css}
+                alt="CSS Logo (Cascading StyleSheet)"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 4. Introdução ao CSS </h3>
             </div>
             <ul
@@ -397,7 +444,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={css} alt="CSS Logo (Cascading StyleSheet)" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={css}
+                alt="CSS Logo (Cascading StyleSheet)"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 5. Aprofundando </h3>
             </div>
             <ul
@@ -423,7 +476,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={css} alt="CSS Logo (Cascading StyleSheet)" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={css}
+                alt="CSS Logo (Cascading StyleSheet)"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 6. Box Model </h3>
             </div>
             <ul
@@ -459,7 +518,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={css} alt="CSS Logo (Cascading StyleSheet)" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={css}
+                alt="CSS Logo (Cascading StyleSheet)"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 7. Tipos de caixas </h3>
             </div>
             <ul
@@ -483,7 +548,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={css} alt="CSS Logo (Cascading StyleSheet)" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={css}
+                alt="CSS Logo (Cascading StyleSheet)"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 8. Flexbox </h3>
             </div>
             <ul
@@ -520,7 +591,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={js} alt="JS logo (javascript)" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={js}
+                alt="JS logo (javascript)"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 9. Introdução ao JS </h3>
             </div>
             <ul
@@ -545,7 +622,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={js} alt="Javascript logo" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={js}
+                alt="Javascript logo"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 10. Tipos de dados </h3>
             </div>
             <ul
@@ -569,7 +652,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={js} alt="Javascript logo" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={js}
+                alt="Javascript logo"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 11. Condicionais </h3>
             </div>
             <ul
@@ -629,7 +718,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={js} alt="Javascript logo" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={js}
+                alt="Javascript logo"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 13. Objetos </h3>
             </div>
             <ul
@@ -663,7 +758,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={react} alt="React framework library logo " height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={react}
+                alt="React framework library logo "
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 14. Introdução ao React </h3>
             </div>
             <ul
@@ -688,7 +789,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={react} alt="React framework library logo " height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={react}
+                alt="React framework library logo "
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 15. Componentes </h3>
             </div>
             <ul
@@ -713,7 +820,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={react} alt="React framework library logo " height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={react}
+                alt="React framework library logo "
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 16. Renderizando JS </h3>
             </div>
             <ul
@@ -749,7 +862,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={git} alt="Git and github logo" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={git}
+                alt="Git and github logo"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 17. Introdução ao Git </h3>
             </div>
             <ul
@@ -773,7 +892,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={git} alt="Git and github logo" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={git}
+                alt="Git and github logo"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 18. Instalando </h3>
             </div>
             <ul
@@ -797,7 +922,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={git} alt="Git and github logo" height={45} width={40} style={{ padding: 10 }} />
+              <img
+                src={git}
+                alt="Git and github logo"
+                height={45}
+                width={40}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 19. Como interagir com git </h3>
             </div>
             <ul
@@ -839,7 +970,13 @@ export function MagicFront() {
                 gap: 10,
               }}
             >
-              <img src={linkedin} alt="Linkedin logo" height={45} width={45} style={{}} />
+              <img
+                src={linkedin}
+                alt="Linkedin logo"
+                height={45}
+                width={45}
+                style={{}}
+              />
               <h3 style={{ color: "white" }}> 1.Montar um currículo </h3>
             </div>
             <ul
@@ -865,7 +1002,13 @@ export function MagicFront() {
                 alignItems: "center",
               }}
             >
-              <img src={linkedin} alt="Linkedin logo" height={45} width={45} style={{ padding: 10 }} />
+              <img
+                src={linkedin}
+                alt="Linkedin logo"
+                height={45}
+                width={45}
+                style={{ padding: 10 }}
+              />
               <h3 style={{ color: "white" }}> 2. Linkedin </h3>
             </div>
             <ul
