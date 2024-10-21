@@ -7,17 +7,29 @@ import js from "../assets/js.webp";
 import react from "../assets/react.webp";
 import linkedin from "../assets/ldn.webp";
 import vaguinhas from "../assets/vaguinhas.png";
+import { useState } from "react";
 
 export function MagicFront() {
+    const [show, setShow] = useState(0)
   const vagas =
     "https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing";
   const CV =
     "https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing";
 
+    function buy(){
+        console.log(show)
+            setShow(1)
+            setTimeout(() => {
+                setShow(2)
+                setTimeout(() => {
+                    window.location.href = 'https://pay.hotmart.com/Y88783634B?off=2bjrkwm0'
+                }, 1500);
+            }, 1800);
+    }
+
   return (
     <div className="page-wrapper">
-        {
-            /**
+      {/**
       <section
         className="links"
         style={{
@@ -48,8 +60,7 @@ export function MagicFront() {
             Planilha de vagas
           </a>
         </button>
-      </section> */
-        }
+      </section> */}
       <section className="top-content">
         <section className="title">
           <img
@@ -80,15 +91,32 @@ export function MagicFront() {
           <h4>
             {" "}
             De <span style={{ textDecoration: "line-through" }}>
-              R$49,90
+              R$54,90
             </span>{" "}
             por
           </h4>
-          <h3 style={{ fontSize: 27 }}> R$10,00</h3>
-          <a href="https://pay.hotmart.com/Y88783634B">
-            {" "}
-            <button> Conferir meu desconto </button>{" "}
-          </a>
+          <h3 style={{ fontSize: 27, color: show == 2 ?  'rgb(85, 145, 213)' : '#213547'}}> R$14,90</h3>
+          {show == 0 ? (
+            <>
+              <a>
+                {" "}
+                <button onClick={buy}> Conferir meu desconto </button>{" "}
+              </a>
+            </>
+          ) : (
+            <>
+              {show == 1 ? (
+                
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <div className="loader"></div>
+                  </div>
+              ) : (
+                <>
+                  <h2 style={{color: 'rgb(85, 145, 213)'}}>Desconto aplicado!</h2>
+                </>
+              )}
+            </>
+          )}
           <p> Cartão de crédito e Pix </p>
         </section>
       </section>
@@ -1076,10 +1104,10 @@ export function MagicFront() {
             Torne-se um desenvolvedor Frontend e faça parte dos melhores{" "}
           </h3>
           <h4 style={{ display: "inline", textAlign: "center" }}>
-            De <span style={{ textDecoration: "line-through" }}>R$49,90</span>{" "}
-            por <em style={{ fontSize: 30 }}>R$10,00 </em>
+            De <span style={{ textDecoration: "line-through" }}>R$54,90</span>{" "}
+            por <em style={{ fontSize: 30 }}>R$14,90 </em>
           </h4>
-          <a href="https://pay.hotmart.com/Y88783634B">
+          <a href="https://pay.hotmart.com/Y88783634B?off=2bjrkwm0">
             <button>Quero me tornar um programador</button>
           </a>
         </section>
