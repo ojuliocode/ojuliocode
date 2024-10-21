@@ -23,7 +23,7 @@ export function MagicFront() {
                 setShow(2)
                 setTimeout(() => {
                     window.location.href = 'https://pay.hotmart.com/Y88783634B?off=2bjrkwm0'
-                }, 1500);
+                }, 1100);
             }, 1800);
     }
 
