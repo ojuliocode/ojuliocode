@@ -8,6 +8,7 @@ import react from "../assets/react.webp";
 import linkedin from "../assets/ldn.webp";
 import vaguinhas from "../assets/vaguinhas.png";
 import { useState } from "react";
+import jalawebp from '../assets/jalawebp.webp'
 
 export function MagicFront() {
     const [show, setShow] = useState(0)
@@ -15,7 +16,7 @@ export function MagicFront() {
     "https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing";
   const CV =
     "https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing";
-
+    const jalalink = 'https://jala-u.info/OJulioCodeBootcamp'
     function buy(){
         console.log(show)
             setShow(1)
@@ -29,7 +30,7 @@ export function MagicFront() {
 
   return (
     <div className="page-wrapper">
-      {/**
+      {
       <section
         className="links"
         style={{
@@ -39,6 +40,7 @@ export function MagicFront() {
           marginBottom: "20px",
         }}
       >
+        <img style={{cursor: 'pointer'}} onClick={() => window.location.href = jalalink} src={jalawebp} alt="" width={200} height='auto'/>
         <button
           style={{
             padding: 0,
@@ -52,15 +54,15 @@ export function MagicFront() {
               backgroundColor: "#004bd6",
               padding: 10,
               borderRadius: 10,
-              fontSize: 24,
+              fontSize: 18,
             }}
-            href={vagas}
+            href={jalalink}
             target="_blank"
           >
-            Planilha de vagas
+           Bootcamp Jala University
           </a>
         </button>
-      </section> */}
+      </section> }
       <section className="top-content">
         <section className="title">
           <img
@@ -104,7 +106,7 @@ export function MagicFront() {
         </section>
       </section>
 
-      <div style={{ display: "flex", justifyContent: "center", marginTop: 60 }}>
+      <div style={{ display: "flex", justifyContent: "center", marginTop: 90 }}>
         <h3 style={{ fontSize: 34 }} className="bogos bigtitle">
           {" "}
           <em className="glowing"> Mensagens que recebo no Instagram </em>{" "}
