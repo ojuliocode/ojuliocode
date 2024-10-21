@@ -22,7 +22,7 @@ export function MagicFront() {
             setTimeout(() => {
                 setShow(2)
                 setTimeout(() => {
-                    window.location.href = 'https://pay.hotmart.com/Y88783634B?off=2bjrkwm0'
+                    window.location.href = 'https://pay.hotmart.com/Y88783634B'
                 }, 1100);
             }, 1800);
     }
@@ -95,28 +95,11 @@ export function MagicFront() {
             </span>{" "}
             por
           </h4>
-          <h3 style={{ fontSize: 27, color: show == 2 ?  'rgb(85, 145, 213)' : '#213547'}}> R$14,90</h3>
-          {show == 0 ? (
-            <>
-              <a>
+          <h3 style={{ fontSize: 27, color: show == 2 ?  'rgb(85, 145, 213)' : '#213547'}}> R$10,00</h3>
+          <a href="https://pay.hotmart.com/Y88783634B">
                 {" "}
-                <button onClick={buy}> Conferir meu desconto </button>{" "}
+                <button> Conferir meu desconto </button>{" "}
               </a>
-            </>
-          ) : (
-            <>
-              {show == 1 ? (
-                
-                  <div style={{ display: "flex", justifyContent: "center" }}>
-                    <div className="loader"></div>
-                  </div>
-              ) : (
-                <>
-                  <h2 style={{color: 'rgb(85, 145, 213)'}}>Desconto aplicado!</h2>
-                </>
-              )}
-            </>
-          )}
           <p> Cartão de crédito e Pix </p>
         </section>
       </section>
@@ -1105,9 +1088,9 @@ export function MagicFront() {
           </h3>
           <h4 style={{ display: "inline", textAlign: "center" }}>
             De <span style={{ textDecoration: "line-through" }}>R$54,90</span>{" "}
-            por <em style={{ fontSize: 30 }}>R$14,90 </em>
+            por <em style={{ fontSize: 30 }}>R$10,00 </em>
           </h4>
-          <a href="https://pay.hotmart.com/Y88783634B?off=2bjrkwm0">
+          <a href="https://pay.hotmart.com/Y88783634B">
             <button>Quero me tornar um programador</button>
           </a>
         </section>
