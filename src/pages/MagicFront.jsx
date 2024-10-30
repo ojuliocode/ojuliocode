@@ -6,7 +6,7 @@ import git from "../assets/git.webp";
 import js from "../assets/js.webp";
 import react from "../assets/react.webp";
 import linkedin from "../assets/ldn.webp";
-import vaguinhas from "../assets/vaguinhas.png";
+import vaguinhas from "../assets/programmer.png";
 import { useState } from "react";
 import jalawebp from '../assets/jalawebp.webp'
 
@@ -17,6 +17,7 @@ export function MagicFront() {
   const CV =
     "https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing";
     const jalalink = 'https://jala-u.info/OJulioCodeBootcamp'
+    const vagasLink = 'https://x.com/tatidirienzo/status/1851285115910910202'
     function buy(){
         console.log(show)
             setShow(1)
@@ -30,7 +31,7 @@ export function MagicFront() {
 
   return (
     <div className="page-wrapper">
-      {/*
+      {
       <section
         className="links"
         style={{
@@ -39,9 +40,7 @@ export function MagicFront() {
           gap: "30px",
           marginBottom: "20px",
         }}
-      >
-        <img style={{cursor: 'pointer'}} onClick={() => window.location.href = jalalink} src={jalawebp} alt="" width={200} height='auto'/>
-        <button
+      > <button
           style={{
             padding: 0,
             borderRadius: 0,
@@ -54,15 +53,15 @@ export function MagicFront() {
               backgroundColor: "#004bd6",
               padding: 10,
               borderRadius: 10,
-              fontSize: 18,
+              fontSize: 25,
             }}
-            href={jalalink}
+            href={vagasLink}
             target="_blank"
           >
-           Bootcamp Jala University
+           Vagas Junior
           </a>
         </button>
-      </section> */}
+      </section> }
       <section className="top-content">
         <section className="title">
           <img
