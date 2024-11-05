@@ -18,6 +18,7 @@ export function MagicFront() {
     "https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing";
     const jalalink = 'https://jala-u.info/OJulioCodeBootcamp'
     const vagasLink = 'https://x.com/tatidirienzo/status/1851285115910910202'
+    const resumakeLink = 'https://latexresu.me/generator/profile'
     function buy(){
         console.log(show)
             setShow(1)
@@ -31,7 +32,7 @@ export function MagicFront() {
 
   return (
     <div className="page-wrapper">
-      {/*
+      {
       <section
         className="links"
         style={{
@@ -55,15 +56,15 @@ export function MagicFront() {
               borderRadius: 10,
               fontSize: 25,
             }}
-            href={vagasLink}
+            href={resumakeLink}
             target="_blank"
           >
-           Vagas Junior
+           Criar currículo
           </a>
         </button>
       </section> 
       
-      */}
+      }
       <section className="top-content">
         <section className="title">
           <img
