@@ -54,12 +54,12 @@ export function MagicFront() {
               backgroundColor: "#004bd6",
               padding: 10,
               borderRadius: 10,
-              fontSize: 25,
+              fontSize: 23,
             }}
-            href={resumakeLink}
+            href={vagas}
             target="_blank"
           >
-           Criar currículo
+           Planilha de vagas
           </a>
         </button>
       </section> 
