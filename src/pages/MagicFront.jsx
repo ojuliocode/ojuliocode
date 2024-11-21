@@ -32,7 +32,7 @@ export function MagicFront() {
 
   return (
     <div className="page-wrapper">
-      {/*
+      {
       <section
         className="links"
         style={{
@@ -41,7 +41,9 @@ export function MagicFront() {
           gap: "30px",
           marginBottom: "20px",
         }}
-      > <button
+      > 
+      <img style={{cursor: 'pointer'}} onClick={() => window.location.replace(jalalink)} src={jalawebp} width={200}/> 
+      <button
           style={{
             padding: 0,
             borderRadius: 0,
@@ -54,17 +56,17 @@ export function MagicFront() {
               backgroundColor: "#004bd6",
               padding: 10,
               borderRadius: 10,
-              fontSize: 23,
+              fontSize: 20,
             }}
-            href={vagas}
+            href={jalalink}
             target="_blank"
           >
-           Planilha de vagas
+           Bootcamp Jala
           </a>
         </button>
       </section> 
       
-      */}
+      }
       <section className="top-content">
         <section className="title">
           <img
