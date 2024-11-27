@@ -42,7 +42,6 @@ export function MagicFront() {
           marginBottom: "20px",
         }}
       > 
-      <img style={{cursor: 'pointer'}} onClick={() => window.location.replace(jalalink)} src={jalawebp} width={200}/> 
       <button
           style={{
             padding: 0,
@@ -58,10 +57,10 @@ export function MagicFront() {
               borderRadius: 10,
               fontSize: 20,
             }}
-            href={jalalink}
+            href={CV}
             target="_blank"
           >
-           Bootcamp Jala
+           Modelo Currículo
           </a>
         </button>
       </section> 
