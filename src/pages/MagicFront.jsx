@@ -32,7 +32,7 @@ export function MagicFront() {
 
   return (
     <div className="page-wrapper">
-      {
+      {/*
       <section
         className="links"
         style={{
@@ -65,7 +65,7 @@ export function MagicFront() {
         </button>
       </section> 
       
-      }
+     */}
       <section className="top-content">
         <section className="title">
           <img
