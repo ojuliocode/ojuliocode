@@ -16,7 +16,7 @@ export function MagicFront() {
     "https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing";
   const CV =
     "https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing";
-    const jalalink = 'https://jala-u.info/OJulioCodeBootcamp'
+    const jalalink = 'https://jala-u.info/Curso_Programacao_BRA'
     const vagasLink = 'https://x.com/tatidirienzo/status/1851285115910910202'
     const resumakeLink = 'https://latexresu.me/generator/profile'
     function buy(){
@@ -32,22 +32,26 @@ export function MagicFront() {
 
   return (
     <div className="page-wrapper">
-      {/*
+      {
       <section
         className="links"
         style={{
           display: "flex",
           justifyContent: "center",
           gap: "30px",
-          marginBottom: "20px",
+          marginBottom: "60px",
+          marginTop: "40px"
         }}
       > 
+            <img src={jalawebp} alt="" width={200} />
       <button
           style={{
             padding: 0,
             borderRadius: 0,
             backgroundColor: "transparent",
             border: "none",
+            display: "flex",
+            flexDirection: 'column'
           }}
         >
           <a
@@ -57,15 +61,15 @@ export function MagicFront() {
               borderRadius: 10,
               fontSize: 20,
             }}
-            href={CV}
+            href={jalalink}
             target="_blank"
           >
-           Modelo Currículo
+           Curso gratuito Jala
           </a>
         </button>
       </section> 
       
-     */}
+     }
       <section className="top-content">
         <section className="title">
           <img
