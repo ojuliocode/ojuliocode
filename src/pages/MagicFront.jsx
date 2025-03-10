@@ -64,7 +64,7 @@ export function MagicFront() {
             href={jalalink}
             target="_blank"
           >
-           Curso gratuito Jala
+           Curso Jala University
           </a>
         </button>
       </section> 
