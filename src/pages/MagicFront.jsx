@@ -43,7 +43,7 @@ export function MagicFront() {
           marginTop: "40px"
         }}
       > 
-            <img src={jalawebp} alt="" width={200} />
+            <img src={jalawebp} alt="" width={150} />
       <button
           style={{
             padding: 0,
@@ -59,7 +59,7 @@ export function MagicFront() {
               backgroundColor: "#004bd6",
               padding: 10,
               borderRadius: 10,
-              fontSize: 20,
+              fontSize: 16,
             }}
             href={jalalink}
             target="_blank"
