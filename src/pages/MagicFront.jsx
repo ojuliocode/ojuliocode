@@ -38,7 +38,7 @@ export function MagicFront() {
         style={{
           display: "flex",
           justifyContent: "center",
-          gap: "30px",
+          gap: "10px",
           marginBottom: "60px",
           marginTop: "40px"
         }}
@@ -57,7 +57,7 @@ export function MagicFront() {
           <a
             style={{
               backgroundColor: "#004bd6",
-              padding: 10,
+              padding: 8,
               borderRadius: 10,
               fontSize: 16,
             }}
