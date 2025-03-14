@@ -16,7 +16,7 @@ export function MagicFront() {
     "https://docs.google.com/spreadsheets/d/18QtlT433tk9fB8GVQGvtkDNuCsV7uaC9oFS5JhaZdIk/edit?usp=sharing";
   const CV =
     "https://docs.google.com/document/d/1B2HGp61zn45e3rhAYMM89emdttESits7ia4AXk-Kc5I/edit?usp=sharing";
-    const jalalink = 'https://jala-u.info/Curso_Programacao_BRA'
+    const jalalink = 'https://jala.university'
     const vagasLink = 'https://x.com/tatidirienzo/status/1851285115910910202'
     const resumakeLink = 'https://latexresu.me/generator/profile'
     function buy(){
