@@ -25,7 +25,7 @@ jobs:
         cache: 'npm' # Or 'yarn', 'pnpm'
 
     - name: Install dependencies
-      run: npm ci # Use 'ci' for faster, reliable installs in CI
+      run: npm ci --legacy-peer-deps # Use 'ci' for faster, reliable installs in CI
 
     - name: Run linter (Optional)
       run: npm run lint # Assuming you have a lint script
