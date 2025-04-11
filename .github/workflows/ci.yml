@@ -27,9 +27,6 @@ jobs:
     - name: Install dependencies
       run: npm ci --legacy-peer-deps # Use 'ci' for faster, reliable installs in CI
 
-    - name: Run linter (Optional)
-      run: npm run lint # Assuming you have a lint script
-
     - name: Run tests
       run: npm test
 
