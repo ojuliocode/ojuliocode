@@ -1,0 +1,47 @@
+name: Build and Test CI
+
+on:
+  push:
+    branches: [ main, master ] # Adjust branch names if needed
+  pull_request:
+    branches: [ main, master ] # Adjust branch names if needed
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x] # Test on relevant Node versions
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm' # Or 'yarn', 'pnpm'
+
+    - name: Install dependencies
+      run: npm ci # Use 'ci' for faster, reliable installs in CI
+
+    - name: Run linter (Optional)
+      run: npm run lint # Assuming you have a lint script
+
+    - name: Run tests
+      run: npm test
+
+    - name: Run build (Optional)
+      run: npm run build
+      env:
+        CI: true # Often needed for builds
+
+    # Optional: Upload coverage report
+    # - name: Upload coverage reports to Codecov
+    #   uses: codecov/codecov-action@v4 # Requires Codecov setup
+    #   with:
+    #     token: ${{ secrets.CODECOV_TOKEN }} # Add secret in GitHub repo settings
+    #     files: ./coverage/coverage-final.json # Adjust path if needed
+    #     fail_ci_if_error: true
