@@ -184,11 +184,14 @@ const curriculum = [
 ]
 
 export function Curriculum() {
-  const [expandedTech, setExpandedTech] = useState<string | null>(null)
+  const [expandedTechs, setExpandedTechs] = useState<Record<string, boolean>>({})
   const [expandedModules, setExpandedModules] = useState<Record<string, boolean>>({})
 
   const toggleTech = (techName: string) => {
-    setExpandedTech(expandedTech === techName ? null : techName)
+    setExpandedTechs((prev) => ({
+      ...prev,
+      [techName]: !prev[techName],
+    }))
   }
 
   const toggleModule = (techName: string, moduleIndex: number) => {
@@ -217,7 +220,7 @@ export function Curriculum() {
               className={cn(
                 "border rounded-lg overflow-hidden transition-all duration-300 shadow-sm",
                 tech.borderColor,
-                expandedTech === tech.name ? "border-opacity-100" : "border-opacity-50",
+                expandedTechs[tech.name] ? "border-opacity-100" : "border-opacity-50",
               )}
             >
               <button
@@ -225,7 +228,7 @@ export function Curriculum() {
                 className={cn(
                   "w-full flex items-center justify-between p-4 text-left transition-colors",
                   tech.bgColor,
-                  expandedTech === tech.name ? "bg-opacity-100" : "bg-opacity-50",
+                  expandedTechs[tech.name] ? "bg-opacity-100" : "bg-opacity-50",
                 )}
               >
                 <div className="flex items-center gap-3">
@@ -237,12 +240,12 @@ export function Curriculum() {
                 <ChevronDown
                   className={cn(
                     "h-5 w-5 transition-transform text-gray-600",
-                    expandedTech === tech.name ? "transform rotate-180" : "",
+                    expandedTechs[tech.name] ? "rotate-180" : "",
                   )}
                 />
               </button>
 
-              {expandedTech === tech.name && (
+              {expandedTechs[tech.name] && (
                 <div className="p-4 bg-white">
                   <div className="space-y-3">
                     {tech.modules.map((module, moduleIndex) => (
@@ -255,7 +258,7 @@ export function Curriculum() {
                           <ChevronDown
                             className={cn(
                               "h-4 w-4 transition-transform text-gray-600",
-                              expandedModules[`${tech.name}-${moduleIndex}`] ? "transform rotate-180" : "",
+                              expandedModules[`${tech.name}-${moduleIndex}`] ? "rotate-180" : "",
                             )}
                           />
                         </button>
