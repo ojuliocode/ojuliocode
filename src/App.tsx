@@ -7,20 +7,21 @@ import { TopBanner } from "./components/top-banner"
 import { StickyBanner } from "./components/sticky-banner"
 import { ExtraLinksModal } from "./components/extra-links-modal"
 
-// Exemplo de links extras - você pode deixar vazio quando não houver links
 const extraLinks = [
-] as any[]
+  {
+    title: "Rocketseat ONE",
+    url: "https://www.rocketseat.com.br/oferta/influencer/v2/julio",
+    description: "10% de desconto na MELHOR plataforma de aprendizado de programação!",
+    image: '../public/rocketseat_logo.jpg' // Example image URL
+  }
+]
 
 function App() {
   return (
     <main className="min-h-screen bg-white text-gray-800 font-mono">
       <TopBanner />
       <StickyBanner />
-
-      {/* Modal de Links Extras - só aparece se houver links */}
       <ExtraLinksModal links={extraLinks} />
-
-      {/* Hero Section */}
       <section className="relative pt-10 pb-32 overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-10">
           <div className="absolute top-0 left-0 w-full h-full">
@@ -129,16 +130,12 @@ function App() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
       <Testimonials />
 
-      {/* Curriculum Section */}
       <Curriculum />
 
-      {/* Bonus Content Section */}
       <BonusContent />
 
-      {/* Final CTA Section */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-sky-50 to-white opacity-70"></div>
         <div className="container mx-auto px-4 relative z-10">
@@ -157,8 +154,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
       <footer className="py-8 border-t border-gray-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
