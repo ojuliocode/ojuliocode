@@ -6,6 +6,7 @@ import { CTAButton } from "./components/cta-button"
 import { TopBanner } from "./components/top-banner"
 import { StickyBanner } from "./components/sticky-banner"
 import { ExtraLinksModal } from "./components/extra-links-modal"
+import { VersionDisplay } from "./components/version-display" // <-- IMPORT HERE
 
 const extraLinks = [
   {
@@ -165,6 +166,7 @@ function App() {
           </div>
         </div>
       </footer>
+      <VersionDisplay /> {/* <-- RENDER HERE */}
     </main>
   )
 }

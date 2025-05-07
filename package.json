@@ -1,5 +1,5 @@
 {
-  "name": "my-v0-project",
+  "name": "ojuliocode",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "deploy:casual": "npm version patch -m \"chore(release): v%s [patch]\" && npm run deploy",
+    "deploy:main": "npm version minor -m \"chore(release): v%s [minor]\" && npm run deploy",
+    "deploy:big": "npm version major -m \"chore(release): v%s [major]\" && npm run deploy"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
