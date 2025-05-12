@@ -14,12 +14,6 @@ const extraLinks = [
     url: "https://www.rocketseat.com.br/oferta/influencer/v2/julio",
     description: "10% de desconto na MELHOR plataforma de aprendizado de programação!",
     image: 'rocketseat_logo.jpg' 
-  },
-  {
-    title: "JALA University",
-    url: "https://jala-u.info/In_Bra_Jcode25",
-    description: "100% de bolsa pra estudar Engenharia de Software",
-    image: 'jala_logo.jpg'
   }
 ]
 
