@@ -12,7 +12,7 @@ const extraLinks = [
   {
     title: "Rocketseat ONE",
     url: "https://www.rocketseat.com.br/oferta/influencer/v2/julio",
-    description: "10% de desconto na MELHOR plataforma de aprendizado de programação!",
+    description: "64% de desconto na MELHOR plataforma de aprendizado de programação!",
     image: 'rocketseat_logo.jpg' 
   }
 ]
