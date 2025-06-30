@@ -11,8 +11,8 @@ import { VersionDisplay } from "./components/version-display" // <-- IMPORT HERE
 const extraLinks = [
   {
     title: "Rocketseat ONE",
-    url: "https://www.rocketseat.com.br/oferta/influencer/v2/julio",
-    description: "64% de desconto na MELHOR plataforma de aprendizado de programação!",
+    url: "https://rseat.in/nlw-ojuliocode",
+    description: "NLW Agents: inscreva-se!",
     image: 'rocketseat_logo.jpg' 
   }
 ]
