@@ -10,9 +10,9 @@ import { VersionDisplay } from "./components/version-display" // <-- IMPORT HERE
 
 const extraLinks = [
   {
-    title: "Rocketseat ONE",
+    title: "NLW Agents",
     url: "https://rseat.in/nlw-ojuliocode",
-    description: "NLW Agents: inscreva-se!",
+    description: "Inscreva-se agora no melhor evento de agentes de IA!",
     image: 'rocketseat_logo.jpg' 
   }
 ]
