@@ -10,9 +10,9 @@ import { VersionDisplay } from "./components/version-display" // <-- IMPORT HERE
 
 const extraLinks = [
   {
-    title: "Vem estudar na Rocketseat!",
+    title: "Desenvolva suas soft skills com a Rocketseat",
     url: "https://rseat.in/nlw-ojuliocode",
-    description: "A plataforma de programação número 1 do Brasil",
+    description: "Foco em comunicação, colaboração, liderança, mindset e carreira para devs",
     image: 'rocketseat_logo.jpg' 
   }
 ]
