@@ -9,13 +9,12 @@ import { ExtraLinksModal } from "./components/extra-links-modal"
 import { VersionDisplay } from "./components/version-display" // <-- IMPORT HERE
 
 const extraLinks = [
-  /*
   {
     title: "Venha estudar na JALA University!",
     url: "https://jala-u.info/JulioCode_Jan2026",
     description: "Graduação em Engenharia de Software. Turmas de Janeiro de 2026",
     image: 'https://media.licdn.com/dms/image/v2/C4E0BAQG-Lcgr-a84FA/company-logo_200_200/company-logo_200_200/0/1654778420300?e=2147483647&v=beta&t=p2zKt9M_HvPOmKCwQBxDV2dji6JRM8Z3Rjf73nJ56-8' 
-  },*/
+  },
   {
     title: "Construa uma aplicação Angular em 3 dias!",
     url: "https://rseat.in/ojuliocode",
