@@ -10,16 +10,16 @@ import { VersionDisplay } from "./components/version-display" // <-- IMPORT HERE
 
 const extraLinks = [
   {
+    title: "Crie seu primeiro site com IA aplicada em 3 aulas!",
+    url: "https://rseat.in/nlw-ojuliocode",
+    description: "Comece do zero absoluto, mesmo sem experiência, e inicie em programação rumo a uma carreira promissora",
+    image: 'rocketseat_logo.jpg' 
+  },
+  {
     title: "Venha estudar na JALA University!",
     url: "https://jala-u.info/JulioCode_Jan2026",
     description: "Graduação em Engenharia de Software. Turmas de Janeiro de 2026",
     image: 'https://media.licdn.com/dms/image/v2/C4E0BAQG-Lcgr-a84FA/company-logo_200_200/company-logo_200_200/0/1654778420300?e=2147483647&v=beta&t=p2zKt9M_HvPOmKCwQBxDV2dji6JRM8Z3Rjf73nJ56-8' 
-  },
-  {
-    title: "Construa uma aplicação Angular em 3 dias!",
-    url: "https://rseat.in/ojuliocode",
-    description: "Em 3 aulas práticas + 1 encontro ao vivo, você vai aplicar Angular em um projeto do zero",
-    image: 'rocketseat_logo.jpg' 
   }
 ]
 
