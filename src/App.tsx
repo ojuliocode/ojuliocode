@@ -7,7 +7,7 @@ import { TopBanner } from "./components/top-banner"
 import { StickyBanner } from "./components/sticky-banner"
 import { ExtraLinksModal } from "./components/extra-links-modal"
 import { VersionDisplay } from "./components/version-display" // <-- IMPORT HERE
-
+/*
 const extraLinks = [
   {
     title: "Crie seu primeiro site com IA aplicada em 3 aulas!",
@@ -22,7 +22,7 @@ const extraLinks = [
     image: 'https://media.licdn.com/dms/image/v2/C4E0BAQG-Lcgr-a84FA/company-logo_200_200/company-logo_200_200/0/1654778420300?e=2147483647&v=beta&t=p2zKt9M_HvPOmKCwQBxDV2dji6JRM8Z3Rjf73nJ56-8' 
   }
 ]
-
+*/
 function App() {
   return (
     <main className="min-h-screen bg-white text-gray-800 font-mono">
